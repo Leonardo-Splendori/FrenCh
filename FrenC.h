@@ -4,6 +4,9 @@
 #include <vector>
 #include <fstream>
 
+#ifndef FRENCH_BINDINGS
+#define FRENCH_BINDINGS
+
 #define si if
 #define autrement else
 #define retours return
@@ -95,3 +98,5 @@
 
 #define fixe std::fixed
 #define précision std::setprecision
+
+#endif
