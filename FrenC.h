@@ -23,6 +23,7 @@
 #define lance throw
 #define aller goto
 #define automatique auto
+#define vide void
 
 #define Vrai true
 #define Faux false
